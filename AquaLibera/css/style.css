@@ -1,0 +1,301 @@
+/* CSS for All */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: lightseagreen;
+}
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.box-3 {
+    float: left;
+    width: 32%;
+    padding: 6px;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 40px;
+    left: 32.525%;
+}
+
+.float-text1 {
+    position: absolute;
+    bottom: 50px;
+    right: 24%;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo {
+    width: 11%;
+    padding: 0.5%;
+    float: left;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Item SEarch Section */
+
+.item-search {
+    background-image: url(..//images/blue-crumpled-paper-texture\ .png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.item-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+
+.categories {
+    padding: 4% 0;
+}
+
+.success {
+    color: #2ed573;
+    padding: 2%;
+}
+
+.error {
+    color: #ff3f34;
+    padding: 2%;
+}
+
+
+/* CSS for Item Menu */
+
+.item-menu {
+    background-color: rgb(190, 229, 229);
+    height: 90px;
+    width: 100%;
+}
+
+.item-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: azure;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.item-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.item-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.item-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.item-detail {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.footer {
+    display: table-row;
+    height: 0;
+}
+
+.footer ul li {
+    display: inline;
+    padding: 1%;
+}
+
+
+/* for Order Section */
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .item-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+    .item-search {
+        padding: 10% 0;
+    }
+    .categories {
+        padding: 20% 0;
+    }
+    h2 {
+        margin-bottom: 10%;
+    }
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+    .item-menu {
+        padding: 20% 0;
+    }
+    .item-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social {
+        padding: 5% 0;
+    }
+    .order {
+        width: 100%;
+    }
+}
